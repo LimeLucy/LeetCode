@@ -1,11 +1,12 @@
-﻿
-namespace LeetCode
+﻿using System;
+
+namespace LeetCode.Q
 {
-	class Quest_110 : Quest
+	internal class Quest_110 : Quest
 	{
 		public override void Init()
 		{
-			bool a = IsBalanced(new TreeNode(10, new TreeNode(5, null, new TreeNode(15, null, null)), null));
+			//bool a = IsBalanced(new TreeNode(10, new TreeNode(5, null, new TreeNode(15, null, null)), null));
 		}
 
 		public bool IsBalanced(TreeNode root)
@@ -13,7 +14,7 @@ namespace LeetCode
 			return GetHeight(root) != -1;
 		}
 
-		private int GetHeight(TreeNode current)
+		private int GetHeight(TreeNode? current)
 		{
 			if (current == null) return 0;
 			var leftHeight = GetHeight(current.left);

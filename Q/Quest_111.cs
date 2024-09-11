@@ -1,8 +1,10 @@
-﻿namespace LeetCode
+﻿using System;
+
+namespace LeetCode.Q
 {
-	class Quest_111 : Quest
+	internal class Quest_111 : Quest
 	{
-		public int MinDepth(TreeNode root)
+		public int MinDepth(TreeNode? root)
 		{
 			if (root == null) return 0;
 			if (root.left == null) return MinDepth(root.right) + 1;

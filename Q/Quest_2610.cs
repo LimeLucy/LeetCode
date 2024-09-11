@@ -1,8 +1,11 @@
-﻿using System.Data;
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
 
-namespace LeetCode
+namespace LeetCode.Q
 {
-	class Quest_2610 : Quest
+	internal class Quest_2610 : Quest
 	{
 		public override void Init()
 		{

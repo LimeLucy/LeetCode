@@ -1,7 +1,9 @@
 ﻿
-namespace LeetCode
+using System.Collections.Generic;
+
+namespace LeetCode.Q
 {
-	class Quest_1514 : Quest
+	internal class Quest_1514 : Quest
 	{
 		public double MaxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node)
 		{
