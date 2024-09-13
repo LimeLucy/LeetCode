@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace LeetCode.Q
 {
 	internal class Quest_2807 : Quest
 	{
-		public override void Init()
-		{			
-		}
+		//public override void Init()
+		//{			
+		//}
 
 		public ListNode? InsertGreatestCommonDivisors(ListNode? head)
 		{

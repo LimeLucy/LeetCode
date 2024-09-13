@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace LeetCode.Q
 {
 	internal class Quest_2326 : Quest
 	{
-		public override void Init()
-		{
-			//SpiralMatrix(10, 1, new ListNode(8, new ListNode(24, new ListNode(5, new ListNode(21, new ListNode(10, new ListNode(11, new ListNode(11, new ListNode(12, new ListNode(6, new ListNode(17)))))))))));
-			//SpiralMatrix(1, 4, new ListNode(0, new ListNode(1, new ListNode(2, null))));
-		}
+		//public override void Init()
+		//{
+		//	//SpiralMatrix(10, 1, new ListNode(8, new ListNode(24, new ListNode(5, new ListNode(21, new ListNode(10, new ListNode(11, new ListNode(11, new ListNode(12, new ListNode(6, new ListNode(17)))))))))));
+		//	//SpiralMatrix(1, 4, new ListNode(0, new ListNode(1, new ListNode(2, null))));
+		//}
 
 		public enum MoveState
 		{

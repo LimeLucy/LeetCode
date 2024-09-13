@@ -12,8 +12,6 @@ namespace LeetCode.Q
 			var ans = ThreeSum(nums);
 		}
 
-
-		// -1, -1, 0, 1, 2, -4
 		public IList<IList<int>> ThreeSum(int[] nums)
 		{
 			Array.Sort(nums);
