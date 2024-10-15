@@ -4,6 +4,18 @@ namespace LeetCode.Q
 {
 	internal class Quest_110 : Quest
 	{
+		#region 문제
+		/*
+		 * 이진 트리가 주어졌을 때, 높이 균형이 맞는지 판단합니다.
+		 * 
+		 * 
+		 * Example 1:
+		 *	https://assets.leetcode.com/uploads/2020/10/06/balance_1.jpg
+		 *	Input: root = [3,9,20,null,null,15,7]
+			Output: true
+		 */
+		#endregion
+
 		public override void Init()
 		{
 			//bool a = IsBalanced(new TreeNode(10, new TreeNode(5, null, new TreeNode(15, null, null)), null));

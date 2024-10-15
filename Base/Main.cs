@@ -8,7 +8,7 @@ namespace LeetCode
 
 		static void Main(string[] args)
 		{
-			s_Instance = new Quest_15();
+			s_Instance = new Quest_029();
 
 			if (s_Instance != null)
 			{

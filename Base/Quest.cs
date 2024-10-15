@@ -1,7 +1,15 @@
 ﻿using System.Collections.Generic;
 
 namespace LeetCode
-{	
+{
+#region Quest Parent
+	class Quest
+	{
+		public virtual void Init() { }
+	}
+#endregion
+
+#region Required LeetCode Quest
 	public class TreeNode
 	{
 		public int val;
@@ -44,11 +52,7 @@ namespace LeetCode
 			this.next = next;
 		}
 	}
-
-	class Quest
-	{
-		public virtual void Init() {}
-	}
+#endregion
 }
 
 
