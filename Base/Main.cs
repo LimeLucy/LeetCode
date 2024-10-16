@@ -8,7 +8,7 @@ namespace LeetCode
 
 		static void Main(string[] args)
 		{
-			s_Instance = new Quest_029();
+			s_Instance = new Quest_1405(); // TODO : 문제 교체시 문제 번호 교체
 
 			if (s_Instance != null)
 			{

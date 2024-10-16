@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Q\1600_1999\" />
-  </ItemGroup>
-
 </Project>

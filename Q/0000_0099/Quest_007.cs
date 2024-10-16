@@ -13,7 +13,7 @@ namespace LeetCode.Q
 		 * 
 		 * Example 1:
 			Input: x = 123
-			Output: 321
+			Output: 321in
 
 		   Example 2:
 			Input: x = -123
